@@ -29,8 +29,18 @@ import "github.com/reiver/go-ext2mime"
 fileExtension := path.Ext(filename)
 
 mimeType := ext2mime.Get(fileExtension)
-
 ```
+
+You can also add you own file-extension to MIME-type mapping with:
+```golang
+func init() {
+	const fileExtension string = ".abc"
+	const mimeType string = "application/abc"
+
+	ext2mime.Set(fileExtension, mimeType)
+}
+```
+
 
 ## Import
 
