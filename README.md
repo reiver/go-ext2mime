@@ -4,11 +4,15 @@ Package **ext2mime** provides tools inferring what MIME type is associated with 
 
 For example:
 
+* `.css` -> `text/css`
 * `.epub` -> `application/epub+zip`,
 * `.html` -> `text/html`,
+* `.jpeg` -> `image/jpeg`
 * `.js` -> `text/javascript`,
 * `.json` -> `application/json`,
 * `.md` -> `text/markdown`,
+* `.png` -> `image/png`
+* `.qoi` -> `image/qoi`
 * etc etc etc.
 
 ## Documention
