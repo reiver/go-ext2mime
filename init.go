@@ -5,6 +5,7 @@ func init() {
 	Set(".vrml",   "model/vrml")
 
 	// audio
+	Set(".flac",   "audio/flac")
 	Set(".mid",    "audio/midi")
 	Set(".midi",   "audio/midi")
 	Set(".mp3",    "audio/mpeg")
