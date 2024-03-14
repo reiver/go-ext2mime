@@ -44,6 +44,8 @@ func init() {
 	Set(".bmp",    "image/bmp")
 	Set(".gif",    "image/gif")
 	Set(".ico",    "image/vnd.microsoft.icon")
+	Set(".ink",    "application/inkml+xml")
+	Set(".inkml",  "application/inkml+xml")
 	Set(".jpeg",   "image/jpeg")
 	Set(".jpg",    "image/jpeg")
 	Set(".qoi",    "image/qoi")
