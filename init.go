@@ -87,5 +87,8 @@ func init() {
 	Set(".mp4",    "video/mp4")
 	Set(".mpeg",   "video/mpeg")
 	Set(".ogv",    "video/ogg")
+	Set(".smi",    "application/smil+xml")
+	Set(".sml",    "application/smil+xml")
+	Set(".smil",   "application/smil+xml")
 	Set(".webm",   "video/webm")
 }
