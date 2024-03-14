@@ -62,6 +62,8 @@ func init() {
 	Set(".tif",    "image/tiff")
 	Set(".tiff",   "image/tiff")
 	Set(".webp",   "image/webp")
+	Set(".xbm",   "image/x-xbitmap")
+	Set(".xpm",   "image/x-xpixmap")
 
 	// program
 	Set(".js",     "text/javascript")
