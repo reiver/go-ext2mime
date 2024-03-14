@@ -6,6 +6,7 @@ func init() {
 
 	// audio
 	Set(".flac",   "audio/flac")
+	Set(".m3u",    "audio/mpegurl")
 	Set(".mid",    "audio/midi")
 	Set(".midi",   "audio/midi")
 	Set(".mp3",    "audio/mpeg")
