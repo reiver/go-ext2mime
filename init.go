@@ -33,6 +33,7 @@ func init() {
 	Set(".jsonactivity", "application/activity+json")
 	Set(".jsonfeed",     "application/feed+json")
 	Set(".jsonld",       "application/ld+json")
+	Set(".rdf",          "application/rdf+xml")
 	Set(".uris",         "text/uri-list")
 
 	// font
