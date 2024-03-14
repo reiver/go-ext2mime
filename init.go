@@ -27,6 +27,7 @@ func init() {
 	// data
 	Set(".csv",          "text/csv")
 	Set(".ini",          "text/ini")
+	Set(".jrd",          "application/jrd+json")
 	Set(".json",         "application/json")
 	Set(".jsonactivity", "application/activity+json")
 	Set(".jsonfeed",     "application/feed+json")
