@@ -25,6 +25,7 @@ func init() {
 	Set(".zip",    "application/zip")
 
 	// data
+	Set(".bin",          "application/octet-stream")
 	Set(".csv",          "text/csv")
 	Set(".ini",          "text/ini")
 	Set(".jrd",          "application/jrd+json")
