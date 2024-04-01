@@ -54,6 +54,7 @@ func init() {
 	Set(".inkml",  "application/inkml+xml")
 	Set(".jpeg",   "image/jpeg")
 	Set(".jpg",    "image/jpeg")
+	Set(".mng",    "video/x-mng")
 	Set(".pbm",    "image/x-portable-bitmap")
 	Set(".pgm",    "image/x-portable-graymap")
 	Set(".png",    "image/png")
