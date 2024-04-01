@@ -59,6 +59,7 @@ func init() {
 	Set(".png",    "image/png")
 	Set(".ppm",    "image/x-portable-pixmap")
 	Set(".qoi",    "image/qoi")
+	Set(".svg",    "image/svg+xml")
 	Set(".tif",    "image/tiff")
 	Set(".tiff",   "image/tiff")
 	Set(".webp",   "image/webp")
